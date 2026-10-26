@@ -6,11 +6,10 @@
 // ─────────────────────────────────────────────────────────────
 window.CLASSROOM_CONFIG = {
   // Supabase → Project Settings → API → Project URL
-  supabaseUrl: "PASTE-YOUR-SUPABASE-PROJECT-URL",
+  supabaseUrl: "https://tjjxsepklhkankeddhst.supabase.co ",
 
   // Supabase → Project Settings → API → anon / publishable key
-  supabaseKey: "PASTE-YOUR-SUPABASE-ANON-OR-PUBLISHABLE-KEY",
-
+  supabaseKey: "sb_publishable_BScO9ULP2QOZFCfvmRXfww_2_wf4sJr", 
   // JaaS (jaas.8x8.vc) → your App ID, starts with vpaas-magic-cookie-
-  jaasAppId: "PASTE-YOUR-JAAS-APP-ID",
+  jaasAppId: "vpaas-magic-cookie-2a6f740e677c4a71995fc4f9e68ab665",
 };
