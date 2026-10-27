@@ -552,3 +552,4 @@ textarea.inp { resize: vertical; line-height: 1.5; }
 .call-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 .call-err { margin: 0; }
 .call-backup { color: var(--muted, #666); }
+.call-meet { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding-top: 8px; border-top: 1px dashed var(--line); }
