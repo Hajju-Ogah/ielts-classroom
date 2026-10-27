@@ -11,5 +11,5 @@ window.CLASSROOM_CONFIG = {
   supabaseKey: "sb_publishable_BScO9ULP2QOZFCfvmRXfww_2_wf4sJr",
 
   // Optional: a backup call link (e.g. a Google Meet link) shown under the audio call.
-  backupCallLink: "",
+  backupCallLink: "https://meet.google.com/iaq-iukw-jqr",
 };
