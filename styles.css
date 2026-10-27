@@ -537,3 +537,18 @@ textarea.inp { resize: vertical; line-height: 1.5; }
   body { background: #fff; }
   .card { box-shadow: none; }
 }
+
+/* audio call */
+.call { padding: 12px 14px; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 8px; }
+.call-head { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+.call-body { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.call-body .spinner-wrap { padding: 4px 0; }
+.call-note { margin: 0; display: flex; align-items: center; gap: 6px; font-size: .92rem; }
+.call-people { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+.call-person { display: grid; grid-template-columns: minmax(0, 1fr) 90px; align-items: center; gap: 10px; width: 100%; font-size: .9rem; }
+.call-person > span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.call-level { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.call-level > span { display: block; height: 100%; background: var(--ok, #2e7d4f); transition: width .1s linear; }
+.call-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.call-err { margin: 0; }
+.call-backup { color: var(--muted, #666); }
